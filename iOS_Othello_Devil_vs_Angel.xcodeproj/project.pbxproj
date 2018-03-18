@@ -11,7 +11,7 @@
 		55216470205CFDEC00EB2EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521646F205CFDEC00EB2EEC /* ViewController.swift */; };
 		55216473205CFDEC00EB2EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55216471205CFDEC00EB2EEC /* Main.storyboard */; };
 		55216478205CFDEC00EB2EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55216476205CFDEC00EB2EEC /* LaunchScreen.storyboard */; };
-		5550FFFC205D809B00FA11C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5550FFFB205D809B00FA11C0 /* Assets.xcassets */; };
+		5550FFFE205E4A5A00FA11C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		55216472205CFDEC00EB2EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55216477205CFDEC00EB2EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55216479205CFDEC00EB2EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5550FFFB205D809B00FA11C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../iPhone_app/SNS/SNS/Assets.xcassets; sourceTree = "<group>"; };
+		5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 				5521646F205CFDEC00EB2EEC /* ViewController.swift */,
 				55216471205CFDEC00EB2EEC /* Main.storyboard */,
 				55216476205CFDEC00EB2EEC /* LaunchScreen.storyboard */,
-				5550FFFB205D809B00FA11C0 /* Assets.xcassets */,
+				5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */,
 				55216479205CFDEC00EB2EEC /* Info.plist */,
 			);
 			path = iOS_Othello_Devil_vs_Angel;
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55216478205CFDEC00EB2EEC /* LaunchScreen.storyboard in Resources */,
-				5550FFFC205D809B00FA11C0 /* Assets.xcassets in Resources */,
+				5550FFFE205E4A5A00FA11C0 /* Assets.xcassets in Resources */,
 				55216473205CFDEC00EB2EEC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

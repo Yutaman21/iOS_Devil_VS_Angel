@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Launching_Screen" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-Tp-miU">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Launch_Screen_Image" translatesAutoresizingMaskIntoConstraints="NO" id="XfQ-Tp-miU">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -36,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Launching_Screen" width="212" height="372"/>
+        <image name="Launch_Screen_Image" width="212" height="372"/>
     </resources>
 </document>
