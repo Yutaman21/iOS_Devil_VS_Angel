@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D66903A205DEE0200D00FE4 /* chachacha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D669039205DEE0200D00FE4 /* chachacha.mp3 */; };
 		3D66903C205DF45B00D00FE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D66903B205DF45B00D00FE4 /* Assets.xcassets */; };
+		3D669041205E504200D00FE4 /* chachacha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D669040205E504100D00FE4 /* chachacha.mp3 */; };
 		5521646E205CFDEC00EB2EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521646D205CFDEC00EB2EEC /* AppDelegate.swift */; };
 		55216470205CFDEC00EB2EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521646F205CFDEC00EB2EEC /* ViewController.swift */; };
 		55216473205CFDEC00EB2EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55216471205CFDEC00EB2EEC /* Main.storyboard */; };
@@ -17,8 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D669039205DEE0200D00FE4 /* chachacha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chachacha.mp3; sourceTree = "<group>"; };
 		3D66903B205DF45B00D00FE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D669040205E504100D00FE4 /* chachacha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chachacha.mp3; sourceTree = "<group>"; };
 		5521646A205CFDEC00EB2EEC /* iOS_Othello_Devil_vs_Angel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Othello_Devil_vs_Angel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5521646D205CFDEC00EB2EEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5521646F205CFDEC00EB2EEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,11 +39,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D66903D205E4F3C00D00FE4 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				3D66903B205DF45B00D00FE4 /* Assets.xcassets */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		55216461205CFDEC00EB2EEC = {
 			isa = PBXGroup;
 			children = (
 				5521646C205CFDEC00EB2EEC /* iOS_Othello_Devil_vs_Angel */,
 				5521646B205CFDEC00EB2EEC /* Products */,
+				3D66903D205E4F3C00D00FE4 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +69,7 @@
 			children = (
 				5521646D205CFDEC00EB2EEC /* AppDelegate.swift */,
 				5521646F205CFDEC00EB2EEC /* ViewController.swift */,
+				3D669040205E504100D00FE4 /* chachacha.mp3 */,
 				55216471205CFDEC00EB2EEC /* Main.storyboard */,
 				55216476205CFDEC00EB2EEC /* LaunchScreen.storyboard */,
 				5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */,
@@ -130,6 +140,7 @@
 				55216478205CFDEC00EB2EEC /* LaunchScreen.storyboard in Resources */,
 				5550FFFE205E4A5A00FA11C0 /* Assets.xcassets in Resources */,
 				55216473205CFDEC00EB2EEC /* Main.storyboard in Resources */,
+				3D669041205E504200D00FE4 /* chachacha.mp3 in Resources */,
 				3D66903C205DF45B00D00FE4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
