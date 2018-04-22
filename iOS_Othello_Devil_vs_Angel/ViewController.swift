@@ -8,8 +8,9 @@
 
 import UIKit
 import AVFoundation
-class ViewController: UIViewController {
 
+class ViewController: UIViewController {
+    
     var backgroundMusicPlayer:AVAudioPlayer!
     
     func playBackgroundMusic(filename: String) {
@@ -47,15 +48,32 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         playBackgroundMusic(filename: "chachacha")
+        
+        self.view.backgroundColor = UIColor.black
+        
+        
+    }
+    
+    override var shouldAutorotate: Bool {
+        return true
+    }
+    
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        if UIDevice.current.userInterfaceIdiom == .phone {
+            return .allButUpsideDown
+        } else {
+            return .all
+        }
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Release any cached data, images, etc that aren't in use.
     }
-
-
+    
+    override var prefersStatusBarHidden: Bool {
+        return true
+    }
 }
-

@@ -13,6 +13,8 @@
 		55216470205CFDEC00EB2EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5521646F205CFDEC00EB2EEC /* ViewController.swift */; };
 		55216473205CFDEC00EB2EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55216471205CFDEC00EB2EEC /* Main.storyboard */; };
 		55216478205CFDEC00EB2EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55216476205CFDEC00EB2EEC /* LaunchScreen.storyboard */; };
+		5540BF4C2088EED50081AB55 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540BF4B2088EED50081AB55 /* ViewController1.swift */; };
+		5540BF4E2088EF1E0081AB55 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5540BF4D2088EF1E0081AB55 /* ViewController2.swift */; };
 		5550FFFE205E4A5A00FA11C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +27,8 @@
 		55216472205CFDEC00EB2EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55216477205CFDEC00EB2EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55216479205CFDEC00EB2EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5540BF4B2088EED50081AB55 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		5540BF4D2088EF1E0081AB55 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		5550FFFD205E4A5A00FA11C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,10 +66,12 @@
 			children = (
 				5521646D205CFDEC00EB2EEC /* AppDelegate.swift */,
 				5521646F205CFDEC00EB2EEC /* ViewController.swift */,
-				3D669040205E504100D00FE4 /* chachacha.mp3 */,
+				5540BF4B2088EED50081AB55 /* ViewController1.swift */,
+				5540BF4D2088EF1E0081AB55 /* ViewController2.swift */,
 				55216471205CFDEC00EB2EEC /* Main.storyboard */,
 				55216476205CFDEC00EB2EEC /* LaunchScreen.storyboard */,
 				55216479205CFDEC00EB2EEC /* Info.plist */,
+				3D669040205E504100D00FE4 /* chachacha.mp3 */,
 			);
 			path = iOS_Othello_Devil_vs_Angel;
 			sourceTree = "<group>";
@@ -152,6 +158,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5540BF4C2088EED50081AB55 /* ViewController1.swift in Sources */,
+				5540BF4E2088EF1E0081AB55 /* ViewController2.swift in Sources */,
 				55216470205CFDEC00EB2EEC /* ViewController.swift in Sources */,
 				5521646E205CFDEC00EB2EEC /* AppDelegate.swift in Sources */,
 			);
